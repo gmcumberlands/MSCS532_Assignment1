@@ -1,4 +1,6 @@
-arr = [7,3,2,6,1,4,5]
+import sys
+
+arr = [int(x) for x in sys.argv[1:]]
 
 for i in range(1,len(arr)):
     key = arr[i]
